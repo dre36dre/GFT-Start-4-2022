@@ -5,6 +5,8 @@ public class Pessoa {
 	private String nome;
 	private String sexo;
 	private int dataDeNascimento;
+	private	int tempoRestante;
+	
 	public Pessoa() {
 		super();
 	}
@@ -34,7 +36,11 @@ public class Pessoa {
 	}
 	
 	public void tempoDeVidaRestante() {
-		
+		if(sexo==m) {
+			this.tempoRestante= dataDeNascimento-73;
+		}else {
+			dataDeNascimento-
+		}
 	}
 	
 	
