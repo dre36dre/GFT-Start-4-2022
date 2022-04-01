@@ -1,9 +1,10 @@
 package Hardware;
 
-public class DiscoRigido {
+public class DiscoRigido extends Hardware {
 private int capacidade;
 private int velocidade;
 private String tipo;
+
 public DiscoRigido() {
 	super();
 }

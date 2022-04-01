@@ -1,6 +1,6 @@
 package Hardware;
 
-public class Memoria {
+public class Memoria  extends Hardware {
 private int frequencia;
 private int capacidade;
 private String tipo;

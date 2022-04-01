@@ -1,6 +1,6 @@
 package Hardware;
 
-public class Cpu {
+public class Cpu  extends Hardware {
 
 	private int clock;
 	private String modelo;

@@ -1,5 +1,7 @@
 package Hardware;
 
+import java.util.Scanner;
+
 public class Hardware {
 
 	private int id;
@@ -7,6 +9,7 @@ public class Hardware {
 	private String fabricante;
 	private double valor;
 	
+	Scanner entrada=new Scanner(System.in);
 	
 	public Hardware() {
 		super();
@@ -63,8 +66,27 @@ public class Hardware {
 	
 	
 	public void getDetalhesHardware() {
+		System.out.println("Digite o id");
+		id=entrada.nextInt();
+		System.out.println("Descricao:");
+		descricao=entrada.next();
+		System.out.println("Fabricante");
+		fabricante=entrada.next();
+		System.out.println("Valor");
+		valor=entrada.nextDouble();
 		
 	}
+
+
+	@Override
+	public String toString() {
+		return "Hardware [id=" + id + ", descricao=" + descricao + ", fabricante=" + fabricante + ", valor=" + valor
+				+ "]";
+	}
+	
+	
+	
+	
 	
 	
 }
