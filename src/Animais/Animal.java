@@ -51,11 +51,9 @@ public void setReptel(Repteis reptel) {
 public void setMamifero(Mamiferos mamifero) {
 	this.mamifero = mamifero;
 }
-
-public String locomover() {
-	if() {
-		return "voar";
-	}if()
+@Override
+public void locomover() {
+	
 }
 
 @Override
